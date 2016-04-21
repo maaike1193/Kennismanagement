@@ -31,7 +31,6 @@
         <TextBlock TextWrapping="Wrap" Text="password" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Height="20" Margin="53,5.333" HorizontalAlignment="Center" Width="62" FontSize="14" Foreground="#FFA3CBE8"/>
         <TextBox TextWrapping="Wrap" TextAlignment="Center" Text="" RenderTransformOrigin="-0.493,0.844" Grid.Row="3" Grid.Column="1" Foreground="#FF195695" Margin="0,0.333,0,30.333" Grid.RowSpan="2"/>
         <PasswordBox Grid.Column="1" Grid.Row="5" Foreground="#FF195695" RenderTransformOrigin="0.524,0.263"/>
-        <Image Grid.Column="1" Source="Assets/Schermafbeelding 2016-04-04 om 12.31.14.png" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1,8,1,8.667"/>
         <Button x:Name="createAccount_btn" Content="create account" Click="createAccount_Click" Grid.Row="7" Grid.Column="1" Foreground="White" Background="#FF195695" HorizontalAlignment="Center"/>
 
     </Grid>
