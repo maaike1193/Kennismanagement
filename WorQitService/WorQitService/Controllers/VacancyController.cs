@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Web.Http;
-using WorQitService.Models;
 
 namespace WorQitService.Controllers
 {
@@ -23,7 +22,7 @@ namespace WorQitService.Controllers
                     Vacancy vacancy = new Vacancy(){
                         ID = (int)reader.GetValue(0),
                         employerID = (int)reader.GetValue(1),
-                        function = (string)reader.GetValue(2),
+                        jobfunction = (string)reader.GetValue(2),
                         description = (string)reader.GetValue(3),
                         salary = (int)reader.GetValue(4),
                         hours = (int)reader.GetValue(5),

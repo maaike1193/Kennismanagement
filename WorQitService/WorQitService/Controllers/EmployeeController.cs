@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Data.SqlClient;
 using System.Web.Http;
-using WorQitService.Models;
 
 namespace WorQitService.Controllers
 {
