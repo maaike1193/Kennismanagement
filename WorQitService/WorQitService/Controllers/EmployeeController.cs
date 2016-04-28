@@ -29,8 +29,8 @@ namespace WorQitService.Controllers
                 {
                     if (password == reader.GetValue(2).ToString());
                     {
-                        employee.EmployeeID = Convert.ToInt32(reader.GetValue(0));
-                        employee.EmployeeName = reader.GetValue(1).ToString();
+                        employee.ID = Convert.ToInt32(reader.GetValue(0));
+                        employee.firstName = reader.GetValue(1).ToString();
                     }
                 }
             }
