@@ -1,9 +1,8 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: maaike
- * Date: 28-4-2016
- * Time: 13:22
+ * User: Thom
+ * Date: 10-5-2016
  */
 ?>
 
@@ -16,7 +15,7 @@
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-    <title>DASHGUM - Bootstrap Admin Template</title>
+    <title>WorQit</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../dashgum/Theme/assets/css/bootstrap.css" rel="stylesheet">
@@ -192,7 +191,7 @@
                 </div>
                 <br/>  <br/>  <br/><br/>  <br/>  <br/><br/>  <br/>
                 <div class="col-lg-6">
-                    <div class="col-lg-3"> <p><button value="sla op" formaction="wijzigProfiel.php">Wijzig</button></p></div>
+                    <div class="col-lg-3"> <p><button value="sla op" formaction="wijzigProfiel.php">Sla op</button></p></div>
                     <div class="col-lg-3"> <p><button value="Delete">Verwijder</button></p></div>
                 </div>
             </div>

@@ -16,7 +16,7 @@
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-    <title>DASHGUM - Bootstrap Admin Template</title>
+    <title>WorQit</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../dashgum/Theme/assets/css/bootstrap.css" rel="stylesheet">
@@ -180,15 +180,15 @@
           	<h3><i class="fa fa-angle-right"></i> Profiel van ..... </h3>
           	<div class="row mt">
           		<div class="col-lg-2">
-          		    <p>"naam"</p>
+          		    <p>Naam</p>
           		</div>
                 <br/>  <br/>  <br/>
                 <div class="col-lg-2">
-                    <p>"locatie"</p>
+                    <p>Locatie</p>
                 </div>
                 <br/>  <br/>  <br/>
                 <div class="col-lg-4">
-                    <p>"omschrijving"</p>
+                    <p>Omschrijving</p>
                 </div>
                 <br/>  <br/>  <br/><br/>  <br/>  <br/><br/>  <br/>
                 <div class="col-lg-6">
