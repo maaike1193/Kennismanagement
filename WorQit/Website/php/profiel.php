@@ -16,7 +16,7 @@
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-    <title>DASHGUM - Bootstrap Admin Template</title>
+    <title>WorQit</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../dashgum/Theme/assets/css/bootstrap.css" rel="stylesheet">
@@ -177,11 +177,26 @@
       <!--main content start-->
       <section id="main-content">
           <section class="wrapper site-min-height">
-          	<h3><i class="fa fa-angle-right"></i> Blank Page</h3>
+          	<h3><i class="fa fa-angle-right"></i> Profiel van ..... </h3>
           	<div class="row mt">
-          		<div class="col-lg-12">
-          		<p>Place your content here.</p>
+          		<div class="col-lg-2">
+          		    <p>Naam</p>
           		</div>
+                <br/>  <br/>  <br/>
+                <div class="col-lg-2">
+                    <p>Locatie</p>
+                </div>
+                <br/>  <br/>  <br/>
+                <div class="col-lg-4">
+                    <p>Omschrijving</p>
+                </div>
+                <br/>  <br/>  <br/><br/>  <br/>  <br/><br/>  <br/>
+                <div class="col-lg-6">
+                    <div class="col-lg-3">
+                        <form method="get" action="wijzigProfiel.php">
+                            <button type="submit">Wijzig</button>
+                        </form>
+                </div>
           	</div>
 			
 		</section><! --/wrapper -->
