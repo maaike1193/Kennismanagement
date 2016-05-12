@@ -16,7 +16,7 @@
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-    <title>DASHGUM - Bootstrap Admin Template</title>
+    <title>Vacatures</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../dashgum/Theme/assets/css/bootstrap.css" rel="stylesheet">
@@ -175,15 +175,58 @@
     MAIN CONTENT
 *********************************************************************************************************************************************************** -->
     <!--main content start-->
+    <?php
+        $response = http_get("http://www.worqit.azurewebsites.net/api/Vacancy/getAllVacancies", array(
+            'headers' => array(
+                'Accept' => 'application/json'
+            )
+        ),$vacatures);
+        return $response;
+    ?>
     <section id="main-content">
         <section class="wrapper site-min-height">
-            <h3><i class="fa fa-angle-right"></i> Blank Page</h3>
+            <h3><i class="fa fa-angle-right"></i> Vacatures</h3>
             <div class="row mt">
-                <div class="col-lg-12">
-                    <p>Place your content here.</p>
-                </div>
+                <div class="col-md-12">
+                    <div class="content-panel">
+                        <table class="table table-striped table-advance table-hover">
+                            <h4>Vacatures overzicht</h4>
+                            <hr>
+                            <thead>
+                            <tr>
+                                <th><i class="fa fa-bullhorn"></i> Functie</th>
+                                <th class="hidden-phone"><i class="fa fa-question-circle"></i> Omschrijving</th>
+                                <th></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <?php
+                            foreach($vacatures as $vacature){
+                                ?>
+                                <tr>
+                                    <td><a href="../dashgum/Theme/basic_table.html#"><?php $vacature->jobfunction?></a></td>
+                                    <td class="hidden-phone"><?php $vacature->description ?></td>
+                                    <td>
+                                        <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button>
+                                    </td>
+                                </tr>
+                            <?php
+                            }
+                            ?>
+                            <tr>
+                                <td><a href="../dashgum/Theme/basic_table.html#">Werknemer</a></td>
+                                <td class="hidden-phone">Alleskunner, Haantje de voorste. Iemand die alles kan en nergens voor terug deinst.</td>
+                                <td>
+                                    <button class="btn btn-success btn-xs"><i class="fa fa-check"></i></button>
+                                    <button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button>
+                                    <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div><!-- /content-panel -->
+                </div><!-- /col-md-12 -->
             </div>
-
         </section><! --/wrapper -->
     </section><!-- /MAIN CONTENT -->
 
