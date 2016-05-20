@@ -149,20 +149,20 @@
                   </li>
 
                   <li class="sub-menu">
-                      <a href="php/profiel.php">
+                      <a href="php/View/profiel.php">
                           <i class="fa fa-desktop"></i>
                           <span>Profiel</span>
                       </a>
                   </li>
 
                   <li class="sub-menu">
-                      <a href="php/vacatures.php" >
+                      <a href="php/View/vacancies.php" >
                           <i class="fa fa-cogs"></i>
                           <span>Vacatures</span>
                       </a>
                   </li>
                   <li class="sub-menu">
-                      <a href="php/berichten.php" >
+                      <a href="php/View/berichten.php" >
                           <i class="fa fa-book"></i>
                           <span>Berichten</span>
                       </a>
