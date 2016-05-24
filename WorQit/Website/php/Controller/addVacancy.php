@@ -11,7 +11,7 @@
     //set POST variables
     $data = array(
         'employerID' => 9,
-        'function' => urlencode($_GET['function']),
+        'function' => urlencode($_GET['functie']),
         'description' => urlencode($_GET['description']),
         'salary' => urlencode($_GET['salary']),
         'hours' => urlencode($_GET['hours']),
@@ -29,7 +29,7 @@
         }
         $count++;
     }
-    $url = 'http://worqit.azurewebsites.net/api/Vacancy/addVacancy?employerID=9&function='.urlencode($_GET['function']).'&description='.urlencode($_GET['description']).
+    $url = 'http://worqit.azurewebsites.net/api/Vacancy/addVacancy?employerID=9&function='.urlencode($_GET['functie']).'&description='.urlencode($_GET['description']).
             '&salary='.urlencode($_GET['salary']).'&hours='.urlencode($_GET['hours']).'&requirements='.urlencode($_GET['requirements']).'&tags='.urlencode($_GET['tags']);
     $postL = mb_strlen($postvars);
 

@@ -46,131 +46,80 @@ require_once ('../../globals.php');
             <!--header start-->
             <header class="header black-bg">
                 <div class="sidebar-toggle-box">
-                <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
-            </div>
-            <!--logo start-->
-            <a href="../../index.php" class="logo"><b>WorQit</b></a>
-            <!--logo end-->
-            <div class="nav notify-row" id="top_menu">
-            <!--  notification start -->
-                <ul class="nav top-menu">
-                <!-- inbox dropdown start-->
-                <li id="header_inbox_bar" class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="../../index.php#">
-                        <i class="fa fa-envelope-o"></i>
-                        <span class="badge bg-theme">5</span>
-                    </a>
-                    <ul class="dropdown-menu extended inbox">
-                        <div class="notify-arrow notify-arrow-green"></div>
-                        <li>
-                            <p class="green">You have 5 new messages</p>
+                    <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+                </div>
+                <!--logo start-->
+                <a href="../../index.php" class="logo"><b>WorQit</b></a>
+                <!--logo end-->
+                <div class="nav notify-row" id="top_menu">
+                    <!--  notification start -->
+                    <ul class="nav top-menu">
+                        <!-- inbox dropdown start-->
+                        <li id="header_inbox_bar" class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="../../index.php#">
+                                <i class="fa fa-envelope-o"></i>
+                                <span class="badge bg-theme">5</span>
+                            </a>
+                            <ul class="dropdown-menu extended inbox">
+                                <div class="notify-arrow notify-arrow-green"></div>
+                                <li>
+                                    <p class="green">You have 5 new messages</p>
+                                </li>                
+                            </ul>
                         </li>
-                    <li>
-        <a href="../../index.php#">
-            <span class="photo"><img alt="avatar" src="../../dashgum/Theme/assets/img/ui-zac.jpg"></span>
-            <span class="subject">
-            <span class="from">Zac Snider</span>
-        <span class="time">Just now</span>
-        </span>
-        <span class="message">
-            Hi mate, how is everything?
-        </span>
-        </a>
-        </li>
-        <li>
-        <a href="../../index.php#">
-            <span class="photo"><img alt="avatar" src="../../dashgum/Theme/assets/img/ui-divya.jpg"></span>
-            <span class="subject">
-            <span class="from">Divya Manian</span>
-        <span class="time">40 mins.</span>
-        </span>
-        <span class="message">
-            Hi, I need your help with this.
-        </span>
-        </a>
-        </li>
-        <li>
-        <a href="../../index.php#">
-            <span class="photo"><img alt="avatar" src="../../dashgum/Theme/assets/img/ui-danro.jpg"></span>
-            <span class="subject">
-            <span class="from">Dan Rogers</span>
-        <span class="time">2 hrs.</span>
-        </span>
-        <span class="message">
-            Love your new Dashboard.
-        </span>
-        </a>
-        </li>
-        <li>
-        <a href="../../index.php#">
-            <span class="photo"><img alt="avatar" src="../../dashgum/Theme/assets/img/ui-sherman.jpg"></span>
-            <span class="subject">
-            <span class="from">Dj Sherman</span>
-        <span class="time">4 hrs.</span>
-        </span>
-        <span class="message">
-            Please, answer asap.
-        </span>
-        </a>
-        </li>
-        <li>
-        <a href="../../index.php#">See all messages</a>
-        </li>
-        </ul>
-        </li>
-        <!-- inbox dropdown end -->
-        </ul>
-        <!--  notification end -->
-        </div>
-        <div class="top-menu">
-            <ul class="nav pull-right top-menu">
-            <li><a class="logout" href="../../login.php">Logout</a></li>
-            </ul>
-            </div>
+                    <!-- inbox dropdown end -->
+                    </ul>
+                <!--  notification end -->
+                </div>
+                <div class="top-menu">
+                    <ul class="nav pull-right top-menu">
+                        <li><a class="logout" href="../../login.php">Logout</a></li>
+                    </ul>
+                </div>
             </header>
-            <!--header end-->
+                <!--header end-->
 
             <!-- **********************************************************************************************************************************************************
             MAIN SIDEBAR MENU
         *********************************************************************************************************************************************************** -->
             <!--sidebar start-->
             <aside>
-            <div id="sidebar"  class="nav-collapse ">
-            <!-- sidebar menu start-->
-            <ul class="sidebar-menu" id="nav-accordion">
+                <div id="sidebar"  class="nav-collapse ">
+                <!-- sidebar menu start-->
+                    <ul class="sidebar-menu" id="nav-accordion">
 
-            <p class="centered"><a href="profiel.php"><img src="../../dashgum/Theme/assets/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
-            <h5 class="centered">Bedrijfs naam</h5>
+                        <p class="centered"><a href="profiel.php"><img src="../../dashgum/Theme/assets/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
+                        <h5 class="centered">Bedrijfs naam</h5>
 
-        <li class="mt">
-            <a href="../../index.php">
-            <i class="fa fa-dashboard"></i>
-            <span>Dashboard</span>
-            </a>
-            </li>
+                        <li class="mt">
+                            <a href="../../index.php">
+                                <i class="fa fa-dashboard"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
 
-            <li class="sub-menu">
-            <a href="profiel.php" >
-            <i class="fa fa-desktop"></i>
-            <span>Profiel</span>
-            </a>
-            </li>
-
-            <li class="sub-menu">
-            <a class="active" href="vacancies.php" >
-            <i class="fa fa-cogs"></i>
-            <span>Vacatures</span>
-            </a>
-            </li>
-            <li class="sub-menu">
-            <a href="berichten.php" >
-            <i class="fa fa-book"></i>
-            <span>Berichten</span>
-            </a>
-            </li>
-            </ul>
-            <!-- sidebar menu end-->
-            </div>
+                        <li class="sub-menu">
+                            <a href="profiel.php" >
+                                <i class="fa fa-desktop"></i>
+                                <span>Profiel</span>
+                            </a>
+                        </li>
+    
+                        <li class="sub-menu">
+                            <a class="active" href="vacancies.php" >
+                                <i class="fa fa-cogs"></i>
+                                <span>Vacatures</span>
+                            </a>
+                        </li>
+                        <li class="sub-menu">
+                            <a href="berichten.php" >
+                                <i class="fa fa-book"></i>
+                                <span>Berichten</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- sidebar menu end-->
+                </div>
             </aside>
             <!--sidebar end-->
 
@@ -179,97 +128,95 @@ require_once ('../../globals.php');
         *********************************************************************************************************************************************************** -->
             <!--main content start-->
             <section id="main-content">
-            <section class="wrapper site-min-height">
-            <h3><i class="fa fa-angle-right"></i> Vacatures</h3>
-            <div class="row mt">
-            <div class="col-md-12">
-            <div class="content-panel">
-            <div id="head">
-            <div id="title">
-            <h4>Vacatures overzicht</h4>
-        </div>
-        <div id="nwVac">
-            <a data-toggle="modal" href="vacancies.php#newVacModal">
-            <button type="button" class="btn btn-round btn-success">Nieuwe vacature</button>
-        </a>
-        </div>
-        </div>
-        <table class="table table-striped table-advance table-hover">
-            <thead>
-            <tr>
-            <th><i class="fa fa-bullhorn"></i> Functie</th>
-            <th class="hidden-phone"><i class="fa fa-question-circle"></i> Omschrijving</th>
-            <th>
-            <?php
-            $vacancies = showVacancies();
-            foreach($vacancies as $vacancy){?>
-            <tr>
-            <td>
-            <a href=../../dashgum/Theme/basic_table.html><?php echo $vacancy->jobfunction?></a>
-        </td>
-        <td class=hidden-phone><?php echo $vacancy->description?></td>
-            <td>
-            <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button>
-            </td>
-            </tr>
-            <?php
-            }
-            ?>
-            </thead>
-            <tbody id="vacanyTable">
-            </tbody>
-            </table>
-            </div><!-- /content-panel -->
-            </div><!-- /col-md-12 -->
-            </div>
-            </section><! --/wrapper -->
+                <section class="wrapper site-min-height">
+                    <h3><i class="fa fa-angle-right"></i> Vacatures</h3>
+                    <div class="row mt">
+                        <div class="col-md-12">
+                            <div class="content-panel">
+                                <div id="head">
+                                    <div id="title">
+                                        <h4>Vacatures overzicht</h4>
+                                    </div>
+                                    <div id="nwVac">
+                                        <a data-toggle="modal" href="vacancies.php#newVacModal">
+                                            <button type="button" class="btn btn-round btn-success">Nieuwe vacature</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <table id="vacancyTable" class="table table-striped table-advance table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th><i class="fa fa-bullhorn"></i> Functie</th>
+                                            <th class="hidden-phone"><i class="fa fa-question-circle"></i> Omschrijving</th>
+                                            <th>
+                                                <?php
+                                                $vacancies = showVacancies();
+                                                foreach($vacancies as $vacancy){?>
+                                                <tr id="<?php $vacancy->ID?>">
+                                                    <td>
+                                                        <a href=><?php echo $vacancy->jobfunction?></a>
+                                                    </td>
+                                                    <td class=hidden-phone><?php echo $vacancy->description?></td>
+                                                    <td>
+                                                        <button id="delete" class="btn btn-danger btn-xs" data-levelid="<?php echo $vacancy->ID; ?>" onclick="deleteVacancy()"><i class="fa fa-trash-o "></i></button>
+                                                    </td>
+                                                </tr>
+                                                <?php
+                                                }
+                                                ?>
+                                    </thead>
+                                </table>
+                            </div><!-- /content-panel -->
+                        </div><!-- /col-md-12 -->
+                    </div>
+                </section><! --/wrapper -->
             </section><!-- /MAIN CONTENT -->
 
             <!-- Modal -->
             <!--new vacancy modal-->
             <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="newVacModal" class="modal fade">
-            <div class="modal-dialog">
-            <form class ="form-newVacancy" method="post" action="../Controller/addVacancy.php">
-            <div class="modal-content">
-            <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title">Nieuwe vacature</h4>
-        </div>
-        <div class="modal-body">
-            <p>Voer de volgende gegevens in om een nieuwe vacature aan te maken.</p>
-        <input type="text" name="functie" id="functie" placeholder="Functie" autocomplete="off" class="form-control placeholder-no-fix">
-            <br>
-            <textarea class="form-control placeholder-no-fix" id= "description" name="description" rows="4" cols="50" placeholder="Omschrijving" maxlength="500" style="resize:none;"></textarea>
-            <br>
-            <input type="text" id="salary" name="salary" placeholder="Salaris" autocomplete="off" class="form-control placeholder-no-fix">
-            <br>
-            <input type="text" id="hours" name="hours" placeholder="Uren" autocomplete="off" class="form-control placeholder-no-fix">
-            <br>
-            <input type="text" id="requirements" name="requirements" placeholder="Eisen" autocomplete="off" class="form-control placeholder-no-fix">
-            <br>
-            <input type="text" id="tags" name="tags" placeholder="Tags" autocomplete="off" class="form-control placeholder-no-fix">
-            </div>
-            <div class="modal-footer">
-            <button data-dismiss="modal" class="btn btn-default" type="button">Annuleren</button>
-            <button class="btn btn-theme" id="newVacancy_button" onclick="addVacancy()" type="button">Verzenden</button>
-            </div>
-            </div>
-            </form>
-            </div>
+                <div class="modal-dialog">
+                    <form class ="form-newVacancy" id="newVacancy"method="post">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Nieuwe vacature</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Voer de volgende gegevens in om een nieuwe vacature aan te maken.</p>
+                                <input type="text" name="functie" id="functie" placeholder="Functie" autocomplete="off" class="form-control placeholder-no-fix">
+                                <br>
+                                <textarea class="form-control placeholder-no-fix" id= "description" name="description" rows="4" cols="50" placeholder="Omschrijving" maxlength="500" style="resize:none;"></textarea>
+                                <br>
+                                <input type="text" id="salary" name="salary" placeholder="Salaris" autocomplete="off" class="form-control placeholder-no-fix">
+                                <br>
+                                <input type="text" id="hours" name="hours" placeholder="Uren" autocomplete="off" class="form-control placeholder-no-fix">
+                                <br>
+                                <input type="text" id="requirements" name="requirements" placeholder="Eisen" autocomplete="off" class="form-control placeholder-no-fix">
+                                <br>
+                                <input type="text" id="tags" name="tags" placeholder="Tags" autocomplete="off" class="form-control placeholder-no-fix">
+                            </div>
+                            <div class="modal-footer">
+                                <button data-dismiss="modal" class="btn btn-default" type="button">Annuleren</button>
+                                <button class="btn btn-theme" id="newVacancy_button" onclick="addVacancy()" type="button">Verzenden</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
             <!--footer start-->
             <footer class="site-footer">
-            <div class="text-center">
-            <a href="../../dashgum/Theme/blank.html#" class="go-top">
-            <i class="fa fa-angle-up"></i>
-            </a>
-            </div>
+                <div class="text-center">
+                    <a href="../../dashgum/Theme/blank.html#" class="go-top">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
             </footer>
-            <!--footer end-->
-            </section>
+        <!--footer end-->
+        </section>
 
-            <!-- js placed at the end of the document so the pages load faster -->
-            <script src="../../dashgum/Theme/assets/js/jquery.js"></script>
+        <!-- js placed at the end of the document so the pages load faster -->
+        <script src="../../dashgum/Theme/assets/js/jquery.js"></script>
         <script src="../../dashgum/Theme/assets/js/bootstrap.min.js"></script>
         <script src="../../dashgum/Theme/assets/js/jquery-ui-1.9.2.custom.min.js"></script>
         <script src="../../dashgum/Theme/assets/js/jquery.ui.touch-punch.min.js"></script>
@@ -294,6 +241,4 @@ require_once ('../../globals.php');
 
         </script>
     </body>
-
-
 </html>

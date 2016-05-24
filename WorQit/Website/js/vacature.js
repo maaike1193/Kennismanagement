@@ -7,9 +7,7 @@ function addVacancy() {
     var request = $.ajax({
         type: "GET",
         url: '../Controller/addVacancy.php',
-        data: "employerID=6" + "&function=" + $("#functie").val() + "&description=" + $("#description").val() +
-        "&salary=" + $("#salary").val() + "&hours=" + $("#hours").val() + "&requirements=" + $("#requirements").val() +
-        "&tags=" + $("#tags").val()
+        data: $('#newVacancy').serializeArray()
     });
     request.done(function () {
         $('#newVacModal').attr('aria-hidden', 'true');
@@ -19,4 +17,28 @@ function addVacancy() {
         alert("Request failed: " + textStatus);
     });
 
+}
+
+function deleteVacancy(){
+    
+    var parameter = 
+        $('#delete').data('levelid');
+    
+
+    var request = $.ajax({
+        type: "GET",
+        url: '../Controller/deleteVacancy.php',
+        data: "id="+parameter
+    });
+    request.done(function () {
+        $('#parameter').animate({
+            backgroundColor: '#FF8585'
+        }, 1000, function () {
+            $(this).fadeOut(1000);
+        });
+        //location.reload();
+    });
+    request.fail(function (jqXHR, textStatus) {
+        alert("Request failed: " + textStatus);
+    });
 }
